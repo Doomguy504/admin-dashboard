@@ -17,6 +17,7 @@ body {
 
 .grid {
     display: grid;
+    align-items: center;
 }
 
 
@@ -44,15 +45,12 @@ header {
 .user-hero {
     grid-template-columns: min-content 1fr;
     gap: 2rem;
-
-    align-items: center;
 }
 
 
 .button-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    align-items: center;
 }
 
 button {
