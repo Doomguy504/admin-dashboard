@@ -19,12 +19,15 @@ body {
     display: grid;
 }
 
+
+/* Header styling */
 header {
     padding: 2rem;
     grid-column: 2/3;
 
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
+    gap: 1.5rem;
 
     background-color: white;
 }
@@ -38,10 +41,15 @@ header {
     background-color: #ececec;
 }
 
-.user-info > *{
-    display: inline;
+.user-hero {
+    grid-template-columns: min-content 1fr;
+    gap: 2rem;
+
+    align-items: center;
 }
 
+
+/* Sidebar styling */
 .sidebar {
     grid-row: 1/3;
 
