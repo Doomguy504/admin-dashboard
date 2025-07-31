@@ -20,9 +20,26 @@ body {
 }
 
 header {
+    padding: 2rem;
     grid-column: 2/3;
 
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
     background-color: white;
+}
+
+#search-bar {
+    height: 1.7rem;
+    width: 70%;
+
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ececec;
+}
+
+.user-info > *{
+    display: inline;
 }
 
 .sidebar {
