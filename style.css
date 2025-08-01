@@ -111,3 +111,14 @@ button {
 .sidebar li {
     margin-bottom: 1.6rem;
 }
+
+
+/* Content styling */
+.content {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+    grid-row: 1/3;
+}
