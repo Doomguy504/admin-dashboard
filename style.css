@@ -144,8 +144,8 @@ button {
 
     background-color: white;
     border-left: 8px solid orange;
-    border-radius: 8px;
-    box-shadow: 1px 1px 3px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px #bbc0c7;
 }
 
 .card div {
