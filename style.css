@@ -143,6 +143,7 @@ button {
 }
 
 .card {
+    min-height: 183px;
     padding: 1rem;
 
     grid-template-columns: 2fr 1fr;
