@@ -169,7 +169,22 @@ button {
 }
 
 /* Announcements */
+.announcements {
+    margin-bottom: 0;
+}
 
+.announcements-container {
+    padding: 1.3rem 2rem;
+}
+
+.announcements li:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+.announcements li:not(:first-child) {
+    padding-top: .8rem;
+    border-top: 2px solid var(--baclground-grey);
+}
 
 
 /* Trending */
