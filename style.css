@@ -133,6 +133,8 @@ button {
 .announcements-container,
 .trending-container {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px #bbc0c7;
 }
 
 /* Cards */
@@ -150,8 +152,6 @@ button {
     grid-template-rows: 2fr 1fr;
 
     border-left: 8px solid orange;
-    border-radius: 10px;
-    box-shadow: 2px 4px 3px #bbc0c7;
 }
 
 .card div {
