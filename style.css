@@ -1,5 +1,6 @@
 :root {
     --sidebar-blue: #1992d4;
+    --baclground-grey: #e2e8f0;
 }
 
 * {
@@ -16,7 +17,7 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 
-    background-color: #e2e8f0;
+    background-color: var(--baclground-grey);
 }
 
 li {
@@ -47,7 +48,7 @@ header {
 
     border-radius: 10px;
     border-style: none;
-    background-color: #ececec;
+    background-color: var(--baclground-grey);
 }
 
 .user-hero {
