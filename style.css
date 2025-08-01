@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -32,7 +31,7 @@ li {
 
 /* Header styling */
 header {
-    padding: 2rem;
+    padding: 1rem 2rem;
     grid-column: 2/3;
 
     grid-template-columns: 2fr 1fr;
@@ -145,7 +144,6 @@ button {
 }
 
 .card {
-    min-height: 200px;
     padding: 1rem;
 
     grid-template-columns: 2fr 1fr;
@@ -171,6 +169,7 @@ button {
 /* Announcements */
 .announcements {
     margin-bottom: 0;
+    font-size: small;
 }
 
 .announcements-container {
@@ -188,3 +187,19 @@ button {
 
 
 /* Trending */
+.trending-container {
+    padding: 1rem 2rem;
+
+    font-size: small;
+}
+
+.trending li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.trending li div {
+    margin-left: 1rem;
+    display: inline-block;
+}
