@@ -1,5 +1,5 @@
 :root {
-    --sidebar-blue: #019ddb;
+    --sidebar-blue: #1992d4;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 
-    background-color: #b9b9b9;
+    background-color: #e2e8f0;
 }
 
 li {
