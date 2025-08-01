@@ -39,6 +39,7 @@ header {
     gap: 1.5rem;
 
     background-color: white;
+    box-shadow: 2px 4px 3px #bbc0c7;
 }
 
 #search-bar {
