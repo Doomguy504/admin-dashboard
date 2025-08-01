@@ -1,6 +1,6 @@
 :root {
     --sidebar-blue: #1992d4;
-    --baclground-grey: #e2e8f0;
+    --background-grey: #e2e8f0;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 
-    background-color: var(--baclground-grey);
+    background-color: var(--background-grey);
 }
 
 li {
@@ -47,7 +47,7 @@ header {
 
     border-radius: 10px;
     border-style: none;
-    background-color: var(--baclground-grey);
+    background-color: var(--background-grey);
 }
 
 .user-hero {
@@ -182,7 +182,7 @@ button {
 
 .announcements li:not(:first-child) {
     padding-top: .8rem;
-    border-top: 2px solid var(--baclground-grey);
+    border-top: 2px solid var(--background-grey);
 }
 
 
