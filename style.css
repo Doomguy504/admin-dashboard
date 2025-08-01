@@ -51,6 +51,12 @@ header {
     gap: 2rem;
 }
 
+.user-info {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
 
 .button-container {
     grid-template-columns: repeat(3, 1fr);
