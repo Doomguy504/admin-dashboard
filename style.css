@@ -147,6 +147,10 @@ button {
     margin: 2rem;
 }
 
+section h2 {
+    margin-bottom: 1rem;
+}
+
 .projects {
     grid-row: span 2;
 }
