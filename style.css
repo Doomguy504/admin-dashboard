@@ -86,6 +86,7 @@ button {
     background-color: var(--sidebar-blue);
     color: white;
     font-weight: bold;
+    font-size: medium;
 }
 
 /* Sidebar styling */
