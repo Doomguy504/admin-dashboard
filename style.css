@@ -42,9 +42,15 @@ header {
     box-shadow: 2px 4px 3px #bbc0c7;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
 #search-bar {
     height: 1.7rem;
     width: 70%;
+    margin-left: 1rem;
 
     border-radius: 10px;
     border-style: none;
@@ -53,14 +59,17 @@ header {
 
 .user-hero {
     grid-template-columns: min-content 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .user-info {
     margin-right: 2rem;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     gap: 1rem;
+
+    font-weight: bold;
 }
 
 .button-container {
@@ -116,6 +125,13 @@ button {
     margin-bottom: 1.6rem;
     display: flex;
     align-items: center;
+}
+
+.sidebar a {
+    margin-bottom: 0.5rem;
+    margin-inline: auto;
+    font-size: small;
+    align-self: self-end;
 }
 
 
