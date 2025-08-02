@@ -89,6 +89,11 @@ button {
     font-size: medium;
 }
 
+button:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
 /* Sidebar styling */
 .sidebar {
     grid-row: 1/3;
@@ -196,7 +201,7 @@ section h2 {
 }
 
 /* Announcements */
-.announcements {
+.announcements-container {
     margin-bottom: 0;
     font-size: small;
 }
