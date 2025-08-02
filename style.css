@@ -95,6 +95,8 @@ button {
 
 .sidebar-header {
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar h1,
@@ -107,10 +109,13 @@ button {
 .sidebar p {
     color: white;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 .sidebar li {
     margin-bottom: 1.6rem;
+    display: flex;
+    align-items: center;
 }
 
 
