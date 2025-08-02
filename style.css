@@ -181,11 +181,13 @@ button {
 }
 
 .card ul {
+    margin-right: 1rem;
     grid-column: 3/4;
     grid-row: 2/3;
 }
 
 .card li {
+    margin-left: 2rem;
     display: inline-block;
 }
 
