@@ -201,13 +201,14 @@ section h2 {
 }
 
 /* Announcements */
-.announcements-container {
+.announcements {
     margin-bottom: 0;
-    font-size: small;
 }
 
 .announcements-container {
+    margin-bottom: 0;
     padding: 1.3rem 2rem;
+    font-size: small;
 }
 
 .announcements li:not(:last-child) {
